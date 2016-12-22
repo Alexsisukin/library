@@ -2,10 +2,10 @@
 
 class Translite {
 
-	/**
+     /**
      * Транслит текста
      * Переводит кириллицу в латиницу
-	 * @param string $title строка
+     * @param string $title строка
      * @return string
      */
 	function translite_text ($title) {
