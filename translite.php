@@ -46,9 +46,6 @@ class Translite {
 			' ' => '-',
 		];
 		
-		$key 			= array_keys ($array);
-		$value 			= array_values ($array);
-		$url_translite 	= str_replace ($key, $value, $title); 
-		return preg_replace ("/[^a-z0-9-]/i", "", $url_translite); 
+		 return strtr($title , $array);
 	}
 }
